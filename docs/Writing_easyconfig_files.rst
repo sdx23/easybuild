@@ -484,7 +484,7 @@ by default the name of the repository is used.
 Examples:
 
   * creating a source tarball named ``example-main.tar.gz`` of the ``main`` branch of a (fictional)
-    ``test`` repository from ``https://agitserver.org/example``, and use ``example-test`` as top-level directory name:
+    ``test`` repository from ``https://agitserver.org/example``:
 
     .. code::
 
@@ -494,7 +494,6 @@ Examples:
               'url': 'https://agitserver.org/example',
               'repo_name': 'test',
               'tag': 'main',
-              'clone_into': 'example-test',
           },
       }]
 
